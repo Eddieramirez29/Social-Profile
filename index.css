@@ -1,0 +1,72 @@
+body
+{
+    /*Color for the box background*/
+    background-color: hsl(0, 0%, 8%);
+    /*Place the box in the middle of the page*/
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*Box features*/
+.box
+{
+    background-color: hsl(0, 0%, 12%);
+    height: 500px;
+    width: 300px;
+    /*surround borders*/
+    border-radius: 10px;
+    display: grid;
+    justify-items: center;
+    
+}
+
+/*White color */
+#name, #description
+{
+    color: white;
+}
+/*Green color for p element*/
+#location
+{
+    color: hsl(75, 94%, 57%);
+}
+
+
+img
+{
+    /*Size of the image*/
+    height: 50px;
+    width: 50px;
+    /*Border around the image*/
+    border-radius: 50%;
+    /*Border color*/
+    border: 5px solid hsl(0, 0%, 8%);
+    /*Place the image in the middle of the box, but 30px away from the top pf the box*/
+    margin-top: 30px;
+}
+
+/*Button color*/
+button
+{
+    background-color:hsl(0, 0%, 20%);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 230px;
+    height: 30px;
+}
+/*Create a margin between the instagram button and the bottom of the box*/
+#instagram
+{
+    margin-bottom: 20px;
+}
+
+/*Button hover color*/
+button:hover
+{
+    background-color:  hsl(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+}
+
