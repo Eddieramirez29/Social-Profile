@@ -6,8 +6,7 @@ body
     display: flex;
     justify-content: center;
     /*Displace the box 50px down*/
-    margin-top: 50px;
-    
+    margin-top: 50px; 
 }
 
 /*Box features*/
@@ -22,17 +21,24 @@ body
     justify-items: center;
     
 }
+#name
+{
+    font-size: 20px;
+    
+}
 
 /*White color */
 #name, #description
 {
     color: white;
+    
 }
 /*Green color for p element*/
 #location
 {
     color: hsl(75, 94%, 57%);
     font-size: 14px;
+    font-weight: bold;
 }
 
 
@@ -57,8 +63,9 @@ button
     border: none;
     color: white;
     width: 230px;
-    height: 30px;
+    height: 35px;
     font-size: 14px;
+    font-weight: bold;
 }
 /*Create a margin between the instagram button and the bottom of the box*/
 #instagram
@@ -72,6 +79,7 @@ button:hover
     background-color:  hsl(75, 94%, 57%);
     color: black;
     font-size: 14px;
+    font-weight: bold;
     cursor: pointer;
 }
 
