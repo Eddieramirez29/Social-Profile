@@ -5,6 +5,9 @@ body
     /*Place the box in the middle of the page*/
     display: flex;
     justify-content: center;
+    /*Displace the box 50px down*/
+
+    margin-top: 50px;
     
 }
 
