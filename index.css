@@ -6,7 +6,6 @@ body
     display: flex;
     justify-content: center;
     /*Displace the box 50px down*/
-
     margin-top: 50px;
     
 }
@@ -33,6 +32,7 @@ body
 #location
 {
     color: hsl(75, 94%, 57%);
+    font-size: 14px;
 }
 
 
@@ -58,6 +58,7 @@ button
     color: white;
     width: 230px;
     height: 30px;
+    font-size: 14px;
 }
 /*Create a margin between the instagram button and the bottom of the box*/
 #instagram
@@ -70,6 +71,7 @@ button:hover
 {
     background-color:  hsl(75, 94%, 57%);
     color: black;
+    font-size: 14px;
     cursor: pointer;
 }
 
